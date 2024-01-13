@@ -1,0 +1,56 @@
+* { 
+    background-color: black;
+   font-family: 'Pixelify Sans', sans-serif; 
+   color: hsla(0, 0%, 100%, 0.808); 
+}
+
+h1 { 
+    color: aquamarine;
+}
+
+.menu-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.goalsGridContainer {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 2px solid blue;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.websiteTitle {
+    
+    
+}
+.slogan {
+    
+    
+}
+
+.header-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
