@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script> <!-- may go after body tag --> 
+    <link rel="stylesheet" href="styles.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Rubik+Glitch&display=swap" rel="stylesheet">
@@ -16,7 +15,8 @@
 <body>
     <div class="menu-container">
         <div class="menu">
-            <div class="websiteTitle"> Build Your Vision </div>
+            <div class="websiteTitle"> 
+                <button onclick="changeBgColor()"> Build Your Vision </button> </div>
             <div class="slogan"> Conquer Your Goals </div>
         </div>
     </div>
@@ -61,8 +61,9 @@
                     </div>
                     </div>
                     <div class="breakdownHeader">
-                        <h2> Goal Breakdown </h2>
+                       <button onclick="visibilityGoalList()"> <h2> Goal Breakdown </h2> </button>
                     </div>
+                    <div id="breakdown">
                     <div class="breakdownContainer">
                         <div class="goalProgress"> goal here
                             <p> and progress bar </p>
@@ -76,39 +77,40 @@
                             </div>
                             <div class="subgoalChecklist1">
                                 <ul>
-                                <li> dis my suboal </li>
-                                <li> dis my second subgoal </li>
+                                    <li> dis my suboal </li>
+                                    <li> dis my second subgoal </li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-
-                                        <div class="breakdownContainer">
-                        <div class="goalProgress"> goal here
-                            <p> and progress bar </p>
-                        </div>
-                        <div class="subgoalChecklist">
-                            <div class="subgoalChecklist1"> subgoals here </div>
-                            <div class="subgoalChecklist1"> <ul>
-                                <li> Ex 1 </li>
-                                <li> Ex 2 </li>
-                                </ul>
                             </div>
-                            <div class="subgoalChecklist1">
-                                <ul>
-                                <li> dis my suboal </li>
-                                <li> dis my second subgoal </li>
-                                </ul>
+                            </div>
+                            
+                            <div class="breakdownContainer">
+                                <div class="goalProgress"> goal here
+                                    <p> and progress bar </p>
+                                </div>
+                                <div class="subgoalChecklist">
+                                    <div class="subgoalChecklist1"> subgoals here </div>
+                                    <div class="subgoalChecklist1">
+                                        <ul>
+                                            <li> Ex 1 </li>
+                                            <li> Ex 2 </li>
+                                        </ul>
+                                    </div>
+                                    <div class="subgoalChecklist1">
+                                        <ul>
+                                            <li> dis my suboal </li>
+                                            <li> dis my second subgoal </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
                     
                     <div class="trackingContainer">
                         <div class="progressChart"> </div>
                         <div class="trackingData"> </div>
                     </div>
                     
-                    
+                    <script src="script.js" defer></script> 
                     </body>
 </html>
